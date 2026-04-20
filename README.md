@@ -1,6 +1,6 @@
 # 🤖 Chatbot Conversation Analysis (SQL Project)
 
-A complete SQL-based data analysis project for understanding and improving chatbot performance.
+A SQL-based data analysis project to evaluate chatbot performance and user interaction patterns.
 
 ---
 
@@ -86,7 +86,7 @@ It transforms raw chatbot data into actionable insights using SQL by analyzing r
 5. View results and analyze chatbot performance metrics  
 
 ## 📂 Project Structure
-'''
+```
 │
 ├── sql/ # SQL queries
 │ └── analysis_queries.sql
@@ -98,7 +98,7 @@ It transforms raw chatbot data into actionable insights using SQL by analyzing r
 │ └── query_results.png
 │
 └── README.md # Project documentation
-'''
+```
 
 ## 🧠 Key Learning Outcomes
 
