@@ -86,19 +86,17 @@ It transforms raw chatbot data into actionable insights using SQL by analyzing r
 5. View results and analyze chatbot performance metrics  
 
 ## 📂 Project Structure
-
-chatbot-sql-analysis/
 │
-├── sql/
-│   └── analysis_queries.sql        # SQL queries for analysis
+├── sql/ # SQL queries
+│ └── analysis_queries.sql
 │
-├── data/
-│   └── chatbot_data.csv           # Dataset used for analysis
+├── data/ # Dataset
+│ └── chatbot_data.csv
 │
-├── images/
-│   └── query_results.png          # Sample outputs / screenshots
+├── images/ # Screenshots / outputs
+│ └── query_results.png
 │
-└── README.md                      # Project documentation
+└── README.md # Project documentation
 
 ## 🧠 Key Learning Outcomes
 
