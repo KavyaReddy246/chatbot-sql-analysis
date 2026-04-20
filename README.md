@@ -84,7 +84,8 @@ It transforms raw chatbot data into actionable insights using SQL by analyzing r
 3. Open the `analysis_queries.sql` file from this repository  
 4. Copy and execute the queries in BigQuery  
 5. View results and analyze chatbot performance metrics
-
+   
+## 💻 Sample Queries
 --Avg Response Time
 SELECT AVG(response_time_sec) AS avg_response_time
 FROM chatbot-sql-project.chatbot_data.conversations;
