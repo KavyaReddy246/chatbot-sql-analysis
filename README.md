@@ -92,7 +92,7 @@ It transforms raw chatbot data into actionable insights using SQL by analyzing r
 │ └── analysis_queries.sql
 │
 ├── data/ # Dataset
-│ └── chatbot_data.csv
+│ └── BI_Chatbot_Interactions.csv
 │
 ├── images/ # Screenshots / outputs
 │ └── query_results.png
