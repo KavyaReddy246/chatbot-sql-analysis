@@ -86,11 +86,11 @@ It transforms raw chatbot data into actionable insights using SQL by analyzing r
 5. View results and analyze chatbot performance metrics
    
 ## 💻 Sample Queries
---Avg Response Time
+--**Avg Response Time**
 SELECT AVG(response_time_sec) AS avg_response_time
 FROM chatbot-sql-project.chatbot_data.conversations;
 
---Identify Worst Performing Intents
+--**Identify Worst Performing Intents**
 SELECT 
   intent,
   COUNT(*) AS total,
