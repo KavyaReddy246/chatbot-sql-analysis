@@ -96,7 +96,7 @@ SELECT
   COUNT(*) AS total,
   COUNTIF(resolved) AS resolved_count,
   ROUND(COUNTIF(resolved) * 100.0 / COUNT(*), 2) AS resolution_rate
-FROM `chatbot-sql-project.chatbot_data.conversations`
+FROM chatbot-sql-project.chatbot_data.conversations
 GROUP BY intent
 ORDER BY resolution_rate ASC;
 
